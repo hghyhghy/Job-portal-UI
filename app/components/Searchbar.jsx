@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Imageshowing from "./Imageshowing";
-
+import Verification from "./Verification";
 const Searchbar = () => {
   const [city, setCity] = useState("");
   const [jobType, setJobType] = useState("");
@@ -63,6 +63,8 @@ const Searchbar = () => {
     </div>
 
     <Imageshowing/>
+    <Verification/>
+    
     </>
   );
 };

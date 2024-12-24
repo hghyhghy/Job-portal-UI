@@ -3,7 +3,7 @@
 import { show } from "@/custom";
 import Image from "next/image";
 import { segment1 } from "@/custom";
-
+import Achievement from "./Achievement";
 const Imageshowing = () => {
 
   return (
@@ -37,6 +37,11 @@ const Imageshowing = () => {
 
         ))}
     </div>
+
+    <div>
+      <Achievement/>
+    </div>
+
 
     </div>
 
