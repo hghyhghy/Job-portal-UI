@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Nav = () => {
   const [activeDropdown, setActiveDropdown] = useState(null); // Tracks the currently active dropdown
@@ -18,13 +19,17 @@ const Nav = () => {
     <div className=" flex flex-row items-center justify-around px-10 ">
 
       <div>
+
+
+      <Link href="/" passHref>
       <Image
         src="/workindia-full.png" // Path to the image in the public folder
-        alt="Example"
+        alt="/Example"
         width={150} // Set the width of the image
         height={100} // Set the height of the image
-        className="rounded-md shadow-lg"
+        className="rounded-md shadow-lg cursor-pointer" // Added cursor-pointer for better UX
       />
+    </Link>
       </div>
     
     <div>

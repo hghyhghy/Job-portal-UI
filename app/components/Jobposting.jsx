@@ -1,10 +1,20 @@
 "use client";
 
 import React from "react";
-
+import Image from "next/image";
 const JobPosting = () => {
   return (
     <>
+
+<div className="absolute right-4  py-32 px-10">
+  <Image
+    src="/trial.svg"
+    height={205}
+    width={350}
+    alt="Trial"
+  />
+</div>
+
       <main className="flex flex-col items-start justify-start gap-4 mt-5"> {/* Reduced gap from gap-0 */}
         <div className="flex flex-col items-start justify-start min-h-screen w-[300%]">
           <div className="bg-white p-8 rounded-lg shadow-lg w-full">
@@ -228,7 +238,137 @@ const JobPosting = () => {
             </div>
           </div>
         </div>
+        <div className="flex flex-col items-start justify-start min-h-screen w-[300%]">
+        </div>
+
+        {/* New Section */}
+        <div className="flex flex-col items-start justify-start min-h-screen w-[300%] -mt-[42rem]">
+          <div className="bg-white p-8 rounded-lg shadow-lg w-full">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+              Contact Information
+            </h2>
+
+            {/* Contact Person Name */}
+            <div className="mb-4">
+              <label
+                htmlFor="contactPerson"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Contact Person Name
+              </label>
+              <input
+                type="text"
+                id="contactPerson"
+                className="text-black w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                placeholder="Enter contact person name"
+              />
+            </div>
+
+            {/* Phone Number */}
+            <div className="mb-4">
+              <label
+                htmlFor="phoneNumber"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Phone Number
+              </label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                className="text-black w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                placeholder="Enter phone number"
+              />
+            </div>
+
+            {/* Email ID */}
+            <div className="mb-4">
+              <label
+                htmlFor="emailId"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Email ID
+              </label>
+              <input
+                type="email"
+                id="emailId"
+                className="text-black w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                placeholder="Enter email ID"
+              />
+            </div>
+
+            {/* Company Name */}
+            <div className="mb-4">
+              <label
+                htmlFor="companyName"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Company Name
+              </label>
+              <input
+                type="text"
+                id="companyName"
+                className="text-black w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                placeholder="Enter company name"
+              />
+            </div>
+
+            {/* Job Address */}
+            <div className="mb-4">
+              <label
+                htmlFor="jobAddress"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Job Address
+              </label>
+              <textarea
+                id="jobAddress"
+                rows="3"
+                className="text-black w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                placeholder="Enter job address"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        
+
+
+
       </main>
+
+      <div className="flex flex-col items-start justify-start h-[15rem] w-[67.5%] bg-gray-200 rounded-md  shadow-2xl">
+        
+        <div className=" px-10 py-10 flex flex-col gap-5">
+
+        <h4 className=" text-gray-600">
+        By submitting this job posting, I provide consent to be contacted by candidates, WorkIndia’s sales agents, and customer support via WhatsApp, SMS, phone calls, and email.
+
+        
+        </h4>
+
+        <h4 className=" text-gray-600">
+        I understand that KYC verification is required and acknowledge the updated refund and privacy policies linked below.
+        </h4>
+        </div>
+
+        <div className=" flex flex-row items-center justify-center gap-5 px-10">
+          <form action="/" method="post">
+          <div className=" flex flex-row gap-4">
+
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/>
+          <label htmlFor="vehicle1">
+              <h4 className="text-gray-600">
+                I agree to the{" "}
+                <span className="text-blue-950 underline decoration-blue-950 decoration-2 underline-offset-2">
+                  Terms and Conditions and privacy policy
+                </span>
+              </h4>
+            </label>
+
+          </div>
+          </form>
+        </div>
+      </div>
+
     </>
   );
 };

@@ -26,7 +26,7 @@ const Page = () => {
                 <Image src="/career.jpg" height={400} width={250} alt="Career" className=" py-11" />
 
                 <div className=" flex flex-col items-center   justify-center gap-2 px-5">
-                  <h2 className="text-2xl font-bold text-gray-800 mb-4">You can Only Post the Job 
+                  <h2 className="text-2xl font-bold text-gray-800 mb-4">You can Only Search the Job Related To Software Industry !
                   </h2>
                   <p className="text-gray-600">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, veniam!
