@@ -3,17 +3,24 @@
 import React from "react";
 import Image from "next/image";
 const JobPosting = () => {
+
+  const handleclick =() => {
+
+    window.location.href='/procedure';
+  };
+
+
   return (
     <>
 
-<div className="absolute right-4  py-32 px-10">
-  <Image
-    src="/trial.svg"
-    height={205}
-    width={350}
-    alt="Trial"
-  />
-</div>
+            <div className="absolute right-4  py-32 px-10">
+              <Image
+                src="/trial.svg"
+                height={205}
+                width={350}
+                alt="Trial"
+              />
+            </div>
 
       <main className="flex flex-col items-start justify-start gap-4 mt-5"> {/* Reduced gap from gap-0 */}
         <div className="flex flex-col items-start justify-start min-h-screen w-[300%]">
@@ -369,7 +376,73 @@ const JobPosting = () => {
         </div>
       </div>
 
+      <div className="flex flex-col items-start justify-start py-10">
+
+      <button className="bg-[#3F51B5]  text-white  font-light py-3 px-6 rounded shadow-md transition duration-300 ease-in-out">
+        Post Job Now 
+      </button>
+
+      </div>
+
+      <div className="relative flex  items-center justify-center bg-black w-1/2 left-[24rem] h-1 px-80">
+      </div>
+
+      
+
+      <div className=" flex flex-col">
+
+        <div className=" flex flex-row  text-blue-900 gap-5 mt-5 px-5 relative left-[16rem]  cursor-pointer">
+
+          <h3>Post job in Hyderabad.</h3>
+          <h3>Post job in Chennai.</h3>
+          <h3>Post job in Lucknow. </h3>
+          <h3>Post job in Surat. </h3>
+          <h3> Post job in Meerut. </h3>
+          <h3>Post job in jaipur. </h3>
+        </div>
+
+
+        <div  className=" flex flex-row  text-blue-900 gap-5 mt-5 px-5 relative left-[16rem]  cursor-pointer">
+          <h3>Post job in Aurangabad.</h3>
+          <h3>Post job in Kolhapur. </h3>
+          <h3> 
+
+          Post job in Nagpur.
+          </h3>
+          <h3> Post job in Ahmednagar.</h3>
+          <h3> 
+          Post job in Gandhinagar.  </h3>
+
+
+        </div>
+
+        <div className=" flex flex-row  text-blue-900 gap-5 mt-5 px-5 relative left-[16rem]  cursor-pointer">
+
+        <h3>Post job in Nashik.</h3>
+        <h3>Post job in Indore. </h3>
+        <h3>Post job in Meerut. </h3>
+        </div>
+      </div>
+
+
+      <div className="flex flex-row items-center justify-center mt-20 relative left-[36rem]">
+          <button
+            onClick={handleclick}
+            className="px-20 py-2 border-2 border-blue-600 text-blue-600 rounded-lg bg-[#EAEEFF] hover:bg-blue-100"
+          >
+            Head To the Process 
+      </button>
+
+      </div>
+        
+
+
+
+
+
     </>
+
+    
   );
 };
 
