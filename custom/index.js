@@ -111,3 +111,35 @@ export const segment7 = [
         second:"You will get calls from relevant candidates"
     }
 ]
+
+export const segment8=[
+
+    {
+
+
+        img:`/simple-hiring.svg`,
+        first:"Simple Hiring",
+        second:"Recieve calls from qualified candidates."
+    }
+]
+
+export const segment9=[
+
+    {
+
+        img:`/intelligent-recommendations.svg`,
+        first:"Intelligent Recommendations",
+        second:"Only the best candidates are recommended"
+    }
+]
+
+export const segment10=[
+
+
+    {
+
+        img:`/priority-support.svg`,
+        first:"Priority customer support",
+        second:"Prioritized customer support for the paid plan users"
+    }
+]

@@ -5,6 +5,7 @@ import { segment6 } from "@/custom";
 import { segment7 } from "@/custom";
 import Image from "next/image";
 import React from "react";
+import Better from "./Better";
 
 const Verification = () => {
 
@@ -101,6 +102,7 @@ const Verification = () => {
             Post a job
           </button>
         </div>
+        <Better/>
       </main>
     </>
   );
