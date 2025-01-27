@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import React from 'react'
 import { segment10,segment8,segment9 } from '@/custom';
+import Employerreview from './Employerreview';
 const Better = () => {
 
     const handleclick = () => {
@@ -100,7 +101,14 @@ const Better = () => {
             Post a job
           </button>
     </div>
+    <div className=' -mt-96'>
+
+    <Employerreview/>
+    </div>
+
+
               </main>
+
     
     </>
   )

@@ -1,4 +1,5 @@
 
+
 export const show=[
 
     {
@@ -143,3 +144,45 @@ export const segment10=[
         second:"Prioritized customer support for the paid plan users"
     }
 ]
+
+export  const data1=[
+
+    {
+
+        name:"Madhulika Singh (Regional Head HR) ★★★★★",
+        comment1:"Highly recommended for Blue collar hiring needs",
+        comment2:"WI has helped Uni save time and increase efficiency, making mass hiring very convenient. Also, WI team puts in a lot of effort from rolling out offers to joining. Highly recommended for Blue collar hiring needs."
+    },
+
+    {
+
+        name:"Sameer Athavale ★★★★★",
+        comment1:"Fast hiring",
+        comment2:"it’s a really nice app for hiring quick. You get ample number of candidates on the platform. The support experience is amazing, they keep in touch with the employer till the candidate is appointed."
+    },
+    {
+        name:"Shivendra ★★★★★",
+        comment1:"Right candidate at an affordable price",
+        comment2:"Workindia took away all our work of going through resumes, calling, and hiring temp staff at an affordable price. They source the right candidate for the job. Very happy with their diligence and hard work."
+    },
+    {
+        name:"Ganesh Sonawane ★★★★☆",
+        comment1:"Smooth Hiring Experience",
+        comment2:"Workindia has a brilliant database of qualified candidates. We have used the Workindia’s services multiple times to find drivers and caretakers"
+    },
+    {
+        name:"Krish Parekh ★★★★☆",
+        comment1:"Value for Money",
+        comment2:"Posted a job, got calls from candidates within minutes. Hired on the very next day. Extremely smooth and value for money. The servicing team understands your problems and are quick to respond to them. Great work! Highly recommendable."
+    },
+    {
+        name:"Omkar Tonape ★★★★☆",
+        comment1:"Cost Effective Hiring",
+        comment2:"Workindia’s consultation service is very cost effective. Support for screening of the candidates, primary appraisal, arranging and scheduling of the interviews, etc. was helpful."
+    }
+]
+
+export const data2=[{
+
+    paragraph:"Accounts . Designer . Developer . Backend . Frontend . Delivery . Marketing . Tailor . Dtp .Photographer . Content Writer . Typist . Hotel . Ward boy . Legal . Architect . Accounts . Designer . Developer . Backend . Frontend . Delivery . Marketing . Tailor . Dtp .Photographer . Content Writer . Typist . Hotel . Ward boy . Legal . Architect"
+}]
