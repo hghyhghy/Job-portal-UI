@@ -186,3 +186,8 @@ export const data2=[{
 
     paragraph:"Accounts . Designer . Developer . Backend . Frontend . Delivery . Marketing . Tailor . Dtp .Photographer . Content Writer . Typist . Hotel . Ward boy . Legal . Architect . Accounts . Designer . Developer . Backend . Frontend . Delivery . Marketing . Tailor . Dtp .Photographer . Content Writer . Typist . Hotel . Ward boy . Legal . Architect"
 }]
+
+export const data3=[{
+
+    paragraph:"Salarpur . Kolhapur . Kochi . Trivandrum . Bengaluru . Mysuru . Tirunelveli . Rameswaram . Bhadrak . Bhubaneshwar . Delhi  . Bikaner . Bhopal . Goa . Mumbai . Chennai . Hyderabad . Benaras . Kashi . Prayagraj . Allahabad . Gurgaon . Patna . Dehradoon . Haridwar . Deoghar . Mirzapur . Salapur . Munger " 
+}]

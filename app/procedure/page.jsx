@@ -5,6 +5,11 @@ import Image from 'next/image'
 
 const page = () => {
 
+  const handleclick = () => {
+
+    window.location.href="/Interviewtips"
+  }
+
 
   return (
     <>
@@ -169,6 +174,17 @@ const page = () => {
 
 
     </div>
+
+    
+    <div className="flex flex-row items-center justify-center mt-20  mb-5">
+          <button
+            onClick={handleclick}
+            className="px-20 py-2 border-2 border-blue-600 text-blue-600 rounded-lg bg-[#EAEEFF] hover:bg-blue-100"
+          >
+            Interview Tips
+      </button>
+
+      </div>
 
 
 
