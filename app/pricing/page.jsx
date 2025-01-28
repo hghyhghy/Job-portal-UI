@@ -4,10 +4,10 @@ import Nav from '../components/Nav';
 import React from 'react'
 import { pic1,pic2,pic3,pic4,pic5,pic6,pic7 } from '@/custom';
 import { GoArrowRight } from "react-icons/go";
-import Employerreview from '../components/Employerreview';
 import { useState } from 'react';
 import { data1 } from "@/custom";
 import { GoChevronRight } from "react-icons/go";
+import App from '../components/App';
 
 const page = () => {
 
@@ -477,6 +477,18 @@ const page = () => {
             </div>
         </div>
           </div>
+        </div>
+
+        <div className=' mt-16 flex items-center justify-center flex-col'>
+           <div className=' flex flex-col gap-5 items-center justify-center'>
+                  <h1 className=' text-6xl text-slate-700 font-sans'>Frequently Asked Questions</h1>
+                  <h1 className=' text-2xl text-slate-600 font-sans'>Need help? Browse our frequently asked questions for fast answers.</h1>
+           </div>
+
+        </div>
+        <div className=' mt-10 text-black'>
+
+            <App/>
         </div>
       </main>
     </>
