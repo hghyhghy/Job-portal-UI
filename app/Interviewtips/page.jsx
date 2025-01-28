@@ -128,6 +128,16 @@ const page = () => {
                          <h3>4.Give examples from your past experience or training whenever possible</h3>
                     </div>
                   </div>
+
+                  <div>
+                    <h1 className='text-black font-bold text-2xl mt-5 px-40'>Tell me about your work in the last company</h1>
+                    <div className=' text-slate-700 flex flex-col gap-5 mt-2 px-48 mb-5'>
+                      <h3>Was your recent experience relevant to what their requirements are?
+                      </h3>
+                      <h3>What were your responsibilities there, and will you fill in the responsibilities for this role well?</h3>
+                      <h3>How was your performance in the last role and will you perform well for this role? Etc.</h3>
+                    </div>
+                  </div>
                </div>
 
             </div>

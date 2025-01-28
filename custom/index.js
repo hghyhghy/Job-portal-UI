@@ -191,3 +191,33 @@ export const data3=[{
 
     paragraph:"Salarpur . Kolhapur . Kochi . Trivandrum . Bengaluru . Mysuru . Tirunelveli . Rameswaram . Bhadrak . Bhubaneshwar . Delhi  . Bikaner . Bhopal . Goa . Mumbai . Chennai . Hyderabad . Benaras . Kashi . Prayagraj . Allahabad . Gurgaon . Patna . Dehradoon . Haridwar . Deoghar . Mirzapur . Salapur . Munger " 
 }]
+
+export const pic1={
+
+    img:`/zomato1.png`
+}
+
+export const pic2={
+
+    img:`/urbancompany 1.png`
+}
+export const pic3={
+
+    img:`/tata 1.png`
+}
+export const pic4={
+
+    img:`/swiggy 1.png`
+}
+export const pic5={
+
+    img:`/ola 1.png`
+}
+export const pic6={
+
+    img:`/licious 1.png`
+}
+export const pic7={
+
+    img:`/hdfc 11.png`
+}
