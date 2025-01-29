@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 const Nav = () => {
+
   const [activeDropdown, setActiveDropdown] = useState(null); // Tracks the currently active dropdown
 
   const handleMouseEnter = (dropdownName) => {
@@ -18,18 +19,18 @@ const Nav = () => {
 
     <div className=" flex flex-row items-center justify-around px-10 ">
 
-      <div>
+      <div className=" cursor-pointer">
 
+      <Link href="/">
+          <Image
+            src="/workindia-full.png"
+            alt="Example"
+            width={150}
+            height={100}
+            className="rounded-md shadow-lg cursor-pointer"
+          />
+</Link>
 
-      <Link href="/" passHref>
-      <Image
-        src="/workindia-full.png" // Path to the image in the public folder
-        alt="/Example"
-        width={150} // Set the width of the image
-        height={100} // Set the height of the image
-        className="rounded-md shadow-lg cursor-pointer" // Added cursor-pointer for better UX
-      />
-    </Link>
       </div>
     
     <div>
@@ -51,7 +52,7 @@ const Nav = () => {
               <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
                 Find Job By Category
               </li>
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Interview Tips</li>
+              <Link href="/Interviewtips" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Interview Tips</Link>
             </ul>
           )}
         </li>
@@ -66,8 +67,8 @@ const Nav = () => {
             Employee
           </span>
           {activeDropdown === "employee" && (
-            <ul className="absolute left-0 mt-2 bg-white text-blue-500 rounded shadow-lg w-[12rem]">
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Start Hiring</li>
+            <ul className="absolute flex flex-col left-0 mt-2 bg-white text-blue-500 rounded shadow-lg w-[12rem] h-[10rem]">
+              <Link href="/postjob" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Start Hiring</Link>
               <Link href="/pricing" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Pricing Plans</Link>
               <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Refund Policy</li>
               <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">FAQs</li>
@@ -85,13 +86,13 @@ const Nav = () => {
             Company
           </span>
           {activeDropdown === "company" && (
-            <ul className="absolute left-0 mt-2 bg-white text-blue-500 rounded shadow-lg w-[12rem]">
+            <ul className="absolute left-0 mt-2 bg-white text-blue-500 rounded shadow-lg w-[12rem] flex flex-col">
               <Link href ="/about" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">About Us</Link>
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Contact</li>
+              <Link href="/contact" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Contact us</Link>
               <Link href="/career" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Careers</Link>
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+              <Link href="/terms" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
                 Terms and Conditions
-              </li>
+              </Link>
             </ul>
           )}
         </li>

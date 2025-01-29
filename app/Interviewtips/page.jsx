@@ -8,7 +8,7 @@ const page = () => {
   return (
 
     <>
-    <main>
+    <main className=' min-h-screen bg-[#F9F9F9]'>
         <Nav/>
         <div>
             <div className=' flex items-start justify-start px-40 mt-10 rounded-lg flex-col gap-7'>
