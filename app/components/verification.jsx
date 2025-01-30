@@ -6,7 +6,7 @@ import { segment7 } from "@/custom";
 import Image from "next/image";
 import React from "react";
 import Better from "./Better";
-import { useState } from "react";
+import { useRef } from "react";
 const Verification = () => {
 
   const handleclick = () => {
