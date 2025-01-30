@@ -6,8 +6,8 @@ import { segment7 } from "@/custom";
 import Image from "next/image";
 import React from "react";
 import Better from "./Better";
-import { useRef } from "react";
-const Verification = () => {
+import { useState } from "react";
+const Verification_temp= () => {
 
   const handleclick = () => {
     // Redirect using window.location
@@ -108,4 +108,4 @@ const Verification = () => {
   );
 };
 
-export default Verification;
+export default Verification_temp;
