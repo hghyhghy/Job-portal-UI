@@ -11,6 +11,8 @@
   "dependencies": {
     "@clerk/nextjs": "^6.10.3",
     "@heroui/react": "^2.6.14",
+    "flowbite": "^3.0.0",
+    "flowbite-react": "^0.10.2",
     "fs": "^0.0.1-security",
     "next": "^15.1.6",
     "qrcode.react": "^4.2.0",

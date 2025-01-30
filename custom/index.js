@@ -184,7 +184,7 @@ export  const data1=[
 
 export const data2=[{
 
-    paragraph:"Accounts . Designer . Developer . Backend . Frontend . Delivery . Marketing . Tailor . Dtp .Photographer . Content Writer . Typist . Hotel . Ward boy . Legal . Architect . Accounts . Designer . Developer . Backend . Frontend . Delivery . Marketing . Tailor . Dtp .Photographer . Content Writer . Typist . Hotel . Ward boy . Legal . Architect"
+    paragraph:"Accounts Designer Developer Backend Frontend Delivery Marketing Tailor Dtp Photographer Content Writer Typist Hotel Wardboy Legal Architect Accounts Designer Developer Backend Frontend Delivery Marketing Tailor Dtp Photographer Content Writer Typist Hotel Ward boy Legal Architect"
 }]
 
 export const data3=[{
