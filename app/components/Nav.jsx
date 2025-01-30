@@ -47,12 +47,14 @@ const Nav = () => {
             Candidate
           </span>
           {activeDropdown === "candidate" && (
-            <ul className="absolute left-0 mt-2 bg-white text-blue-500 rounded shadow-lg w-[12rem]">
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Install App</li>
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+            <ul className="absolute left-0 mt-2 bg-white text-blue-500 rounded shadow-lg w-[12rem] flex flex-col">
+              <Link href="/install" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Install App</Link>
+              <Link href="/postjob" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
                 Find Job By Category
-              </li>
+              </Link>
               <Link href="/Interviewtips" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Interview Tips</Link>
+              <Link href="/community" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Join community</Link>
+
             </ul>
           )}
         </li>
@@ -70,8 +72,8 @@ const Nav = () => {
             <ul className="absolute flex flex-col left-0 mt-2 bg-white text-blue-500 rounded shadow-lg w-[12rem] h-[10rem]">
               <Link href="/postjob" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Start Hiring</Link>
               <Link href="/pricing" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Pricing Plans</Link>
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Refund Policy</li>
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">FAQs</li>
+              <Link href="/refund" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Refund Policy</Link>
+              <Link href="/faqs" className="px-4 py-2 hover:bg-gray-200 cursor-pointer">FAQs</Link>
             </ul>
           )}
         </li>
